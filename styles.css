@@ -7,3 +7,5 @@
 .built img{width:155px;height:78px;object-fit:contain;object-position:left center}
 .site-footer>img{width:150px;height:72px;object-fit:contain;object-position:left center}
 @media(max-width:760px){.brand img{width:112px;height:48px}.hero-logo{width:min(520px,94vw);margin-top:30px}.built{align-items:flex-start;flex-direction:column;gap:4px}.built img{width:145px;height:72px}.site-footer>img{margin:auto;object-position:center}}
+
+.project-link{display:inline-flex;align-items:center;gap:9px;margin-top:14px;color:var(--ink);font-size:14px;font-weight:700;text-decoration:none;border-bottom:1px solid #b9c6d2;padding:0 0 5px;transition:.2s ease}.project-link:hover{border-color:var(--blue);color:#278fcf}.project-link span{font-size:15px}.brand-line{margin:28px 0 0;font-size:17px;font-weight:700;color:var(--ink);letter-spacing:.01em}
