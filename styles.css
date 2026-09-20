@@ -9,3 +9,47 @@
 @media(max-width:760px){.brand img{width:112px;height:48px}.hero-logo{width:min(520px,94vw);margin-top:30px}.built{align-items:flex-start;flex-direction:column;gap:4px}.built img{width:145px;height:72px}.site-footer>img{margin:auto;object-position:center}}
 
 .project-link{display:inline-flex;align-items:center;gap:9px;margin-top:14px;color:var(--ink);font-size:14px;font-weight:700;text-decoration:none;border-bottom:1px solid #b9c6d2;padding:0 0 5px;transition:.2s ease}.project-link:hover{border-color:var(--blue);color:#278fcf}.project-link span{font-size:15px}.brand-line{margin:28px 0 0;font-size:17px;font-weight:700;color:var(--ink);letter-spacing:.01em}
+
+/* Launch polish — mobile-first first impression */
+.eyebrow{display:inline-block;font-size:11px;font-weight:800;letter-spacing:.2em;color:#78899a;margin-bottom:8px}
+@media(max-width:760px){
+ nav{height:74px;padding:0 22px;background:rgba(255,255,255,.94)}
+ .brand img{width:122px;height:54px}
+ .navcta{padding:9px 17px;font-size:14px}
+ .hero{min-height:auto;padding:132px 22px 72px}
+ .hero-inner{width:100%}
+ .eyebrow{font-size:10px;letter-spacing:.17em;margin-bottom:14px}
+ .hero-logo{width:min(430px,91vw);max-height:none;margin:10px auto 18px}
+ .lead{font-size:17px;line-height:1.55;max-width:34ch}
+ .actions{margin-top:28px;gap:10px}
+ .actions a{padding:13px 16px;font-size:13px;flex:1 1 150px}
+ .intro,.proof,.contact{padding:72px 24px}
+ .kicker{margin-bottom:20px;font-size:10px}
+ .split h2,.proof h2,.future h2,.contact h2{font-size:clamp(39px,11vw,50px);line-height:1.01}
+ .split p,.proof-head>p,.future>p,.contact-copy>p{font-size:17px;line-height:1.62}
+ .principles{gap:12px;margin-top:42px}
+ .principles>div{padding:24px 24px;border-radius:20px}
+ .principles h3{margin:24px 0 7px}
+ .proof-head{gap:22px}
+ .project-card{border-radius:26px;margin-top:34px;min-height:0}
+ .project-copy{padding:30px 24px 34px}
+ .project-copy h3{font-size:42px;line-height:1.02;margin:20px 0}
+ .project-copy>p{font-size:16px;line-height:1.6}
+ .project-link{font-size:14px;margin-top:12px}
+ .built{margin-top:38px;padding-top:20px}
+ .phone{width:min(280px,82vw);height:470px}
+ .future{padding:88px 24px}
+ .future>p{margin:26px auto}
+ .chips{margin-top:28px}
+ .contact{gap:28px}
+ .brand-line{font-size:16px;margin-top:20px}
+ .site-footer{padding:42px 24px 52px}
+ .site-footer>img{width:170px;height:82px}
+}
+@media(max-width:390px){
+ .hero{padding-left:18px;padding-right:18px}
+ .actions{flex-direction:column}
+ .actions a{flex:auto;width:100%}
+ .project-copy h3{font-size:38px}
+ .split h2,.proof h2,.future h2,.contact h2{font-size:38px}
+}
