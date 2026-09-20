@@ -53,3 +53,6 @@
  .project-copy h3{font-size:38px}
  .split h2,.proof h2,.future h2,.contact h2{font-size:38px}
 }
+
+.use-areas{margin:32px auto 0!important;text-align:center;font-size:13px!important;font-weight:700;letter-spacing:.04em;color:#78899a!important;max-width:760px!important}.use-areas span{display:inline-block;margin:0 10px;color:#b7c1ca}
+@media(max-width:760px){.future{text-align:center}.future .kicker{text-align:center}.future h2{margin-left:auto;margin-right:auto;text-align:center}.future>p{max-width:34ch;text-align:center;margin-left:auto;margin-right:auto}.use-areas{max-width:320px!important;font-size:12px!important;line-height:2!important;margin-top:24px!important}.use-areas span{margin:0 6px}}
